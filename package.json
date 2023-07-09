@@ -7,6 +7,13 @@
     "dev": "gobble dev",
     "deployBackend": "gobble sls deploy"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JamesMillerBlog/auth.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "author": "James Miller",
   "license": "ISC"
 }
